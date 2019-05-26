@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto | Epzilon Verde </title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0"> 
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="icon" href="img/logo_1_jpng.ico">
+    <script src="https://www.google.com/recaptcha/api.js"></script> 
+</head>
+<body>
+      <header class="main-header">
+        <div class="container container--flex">
+           <div class="logo-container"><img src="img/logo_2.jpg" alt="" class="logo">
+           </div>
+            <div class="main-header__contactInfo column--50">
+                <p class="main-header__contactInfo__phone">
+                    <span class="icon-phone">56-58-11-11</span>
+                </p>
+                <p class="main-header__contactInfo__address">
+                    <span class="icon-location"> Tultepec Estado de México</span>
+                </p>
+            </div>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <div class="container container--flex">
+        <span class="icon-menu" id="btnmenu"></span>
+        <ul class="menu" id="menu">
+            <li class="menu__item"><a href="/" class="menu__link ">Inicio</a></li>
+            <li class="menu__item"><a href="nosotros.html" class="menu__link ">Nosotros</a></li>
+            <li class="menu__item"><a href="tienda.html" class="menu__link">Tienda</a></li>
+            <li class="menu__item"><a href="contacto.html" class="menu__link menu__link--select">Contacto</a></li>
+        </ul>
+        <div class="social-icon">
+            <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+            <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+            <a href="" class="social-icon__link"><span class="icon-mail"></span></a>
+        </div>
+        </div>
+    </nav>
+    <section class="banner">
+        <img src="img/banner_contact.jpg" alt="" class="banner_img">
+        <div class="banner__content">Súmate a la causa</div>
+    </section>
+    <main class="main">
+      <section class="group contact">
+          <h2 class="group__title">Contáctanos</h2>
+          <div class="container container--flex">
+              <div class="contact-information column column--50">
+                 <h3 class="column__title">Información de contacto</h3>
+                 <p class="column__txt">¿Quieres decirnos algo? ... </p>
+                 <p class="column__txt"><span class="icon-phone"></span>Teléfono 1: 56-58-11-11</p>
+                 <p class="column__txt"><span class="icon-phone"></span>Teléfono 2: 56-88-07-22</p>
+                 <p class="column__txt"><span class="icon-location"></span>Tultepec Estado de México</p>
+                 <p class="column__txt"><span class="icon-mail"></span>ventas@epzilon_verde.com</p> 
+                 <div class="social-icon">
+            <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+            <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+            <a href="" class="social-icon__link"><span class="icon-mail"></span></a>
+                </div>                    
+              </div>
+              <form action="registrar.php" method="post" class="formulario column column--50">
+                 <label for="" class="formulario__label">Nombre:</label>
+                 <input type="text" class="formulario__input-txt" name="nombre">
+                  <label for="" class="formulario__label">Correo:</label>
+                 <input type="text" class="formulario__input-txt" name="correo"> 
+                  <label for="" class="formulario__label">Teléfono:</label>
+                 <input type="text" class="formulario__input-txt" name="telefono"> 
+                  <label for="" class="formulario__label">Mensaje:</label>
+                 <textarea name="mensaje" id="" cols="30" rows="10" class="Formulario__textarea">
+                  </textarea> 
+                  <div class="g-recaptcha"data-sitekey="6Ld6kKQUAAAAAAEgq-emQ66fGXzlPdAx1PO_FX5q"></div>
+                  <input type="submit" class="btn formulario__btn" value="Enviar">
+          </form>
+          </div> 
+          </section>
+    </main>
+    <footer class="main-footer">
+        <div class="container container--flex">
+            <div class="column column--33">
+              <h2 class="column__title">¿Por qué visitarnos?</h2>
+              <p class="column__txt"> Piña Zepeda Elena |404108478 |UNAM</p>  
+            </div>
+            <div class="column column--33">
+              <h2 class="column__title">Contáctanos</h2>
+              <p class="column__txt">Tultepec Estado de México</p> 
+              <p class="column__txt">Teléfono 56-58-11-11</p> 
+              <p class="column__txt">    ventas@epzilon_verde.com</p> 
+            </div>
+            <div class="column column--33">
+              <h2 class="column__title">Síguenos en nuestras redes</h2>
+              <p class="column__txt"><a href="" class="icon-facebook">Facebook</a></p>  
+              <p class="column__txt"><a href="" class="icon-twitter">Síguenos en Twitter</a></p>  
+              <p class="column__txt"><a href="" class="icon-youtube">Visítanos en Youtube</a></p>  
+            </div>
+        </div>
+        <p class="copy">© 2019 Epzilon Verde | Todos los derechos reservados </p>
+    </footer>
+   <script src="js/menu.js"></script>
+   <script src="js/modal.js"></script>
+</body>
+</html>
